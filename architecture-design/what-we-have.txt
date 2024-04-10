@@ -1,0 +1,16 @@
+
+
+1. We have load balancers that distributes requests to multiple servers, avoiding single-point failures and overloads.
+
+2. We use Kubernetes to deploy multiple identical service instances, ensuring that when one instance fails, other instances can take over the work. Additionally, it enables elastic scaling based on changes in load.
+
+3. We split and microservice our services, with each service responsible for specific functions. This approach reduces the impact of failures, enhancing the system's maintainability and scalability.
+
+4. We utilize resilience4j, a high-availability framework, which supports mechanisms such as circuit breaking, rate limiting, isolation, throttling, timeouts, and retries.
+
+5. We have added service monitoring and alerting systems to collect and analyze system runtime data in real-time, enabling the timely discovery of potential issues, and alerting system.
+
+
+
+--?
+6. We use distributed caching system that uses caches to store hot data, reducing the pressure on backend databases.
