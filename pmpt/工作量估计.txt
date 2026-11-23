@@ -1,0 +1,15 @@
+(Raw business requirement)Business
+(Business requirement analysis)PO.BA
+(Scope & simplify the requirement)PO
+(Technical design-Break down)Architect
+(Development & UT)Dev
+(Automation test)Dev
+(Scan issue fix)Dev
+(PR & solve conflicts)Dev
+(Merge code to trunk)Dev
+(Env setup Runbook)Dev
+(Data migration)Dev
+(Pipeline deploy to dev)Dev
+(Integration test)Dev.QA
+(Performance test)QA
+(Bug fix)Dev
